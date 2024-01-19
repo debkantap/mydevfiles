@@ -8,6 +8,9 @@ components:
       endpoints:
         - name: http-3000
           targetPort: 3000
+  - name: exec-plugin
+    plugin:
+      id: machine-exec-plugin/0.0.1
 commands:
   - id: install
     exec:
