@@ -1,6 +1,9 @@
 schemaVersion: 2.2.0
 metadata:
   name: helloworld-example
+attributes:
+  .che/che-theia-plugins.yaml: |
+    - id: redhat/java
 components:
   - name: dev-tooling
     container:
