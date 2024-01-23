@@ -8,8 +8,8 @@ components:
       endpoints:
         - name: http-3000
           targetPort: 3000
-  - name: sonarlint
-      - id: SonarSource.sonarlint-vscode/4.2.2
+  - name: asciidoctor
+      - id: joaompinto/vscode-asciidoctor/latest
         type: chePlugin
 commands:
   - id: install
