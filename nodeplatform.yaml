@@ -15,6 +15,9 @@ components:
       endpoints:
         - name: http-3000
           targetPort: 3000
+  - name: sonarlint-vscode
+    plugin:
+    reference: https://github.com/sainirijul/che-plugin-registry/blob/master/v3/plugins/sonarsource/sonarlint-vscode/1.13.0/meta.yaml
 commands:
   - id: install
     exec:
